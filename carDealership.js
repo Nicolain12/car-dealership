@@ -1,6 +1,6 @@
 let cars = require('./cars')
 
-const concesionaria = {
+const carDealership = {
    cars: cars,
    findCar: function(patent){
     let carByPatent = cars.filter(value => value.patent == patent)
